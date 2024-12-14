@@ -79,7 +79,7 @@ public class HomeView extends VBox{
 		productLbl = new Label();
 		productDescLbl = new Label();
 		manageVendorBtn.setOnMouseClicked(e->{
-			ViewController.getInstance(null).navigateToVendorView();
+			ViewController.getInstance(null).navigateToVendor();
 		});
 		submitBtn.setOnMouseClicked(e->{
 			AcceptInvite();
